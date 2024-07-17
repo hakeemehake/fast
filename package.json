@@ -15,3 +15,4 @@
     "deploy": "fastly compute publish"
   }
 }
+

@@ -5,9 +5,18 @@ authors = ["<oss@fastly.com>"]
 description = "A basic starter kit that demonstrates routing, simple synthetic responses and overriding caching rules."
 language = "javascript"
 manifest_version = 3
-name = "Default starter for JavaScript"
 service_id = "jTrw0jNQs0ASms6XA7kNR6"
+
+name = "cf-worker-ws-dev" # todo
+#main = "_worker.js"
+
+
+[vars]
+UUID = "1b6c1745-992e-4aac-8685-266c090e50ea,89b64978-6244-4bf3-bf64-67ade4ce5c8f,d342d11e-d424-4583-b36e-524ab1f0afa4"
 
 [scripts]
 build = "npm run build"
 post_init = "npm install"
+
+
+
